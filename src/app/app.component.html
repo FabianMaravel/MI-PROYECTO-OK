@@ -35,7 +35,11 @@ En este proyecto podremos ver los diferentes codigos utilizados de html asi como
           <li><a href="#card">6.-Insertar cartas de presentacion</a></li>
           <li><a href="#cardscolor">7.-Cartas de colores</a></li>
           <li><a href="#menu">8.-Menu de opciones</a></li>
-          <li><a href="#email">8.-Menu de opciones</a></li>
+          <li><a href="#email">9.-Ingresar email</a></li>
+          <li><a href="#switch">10.-switch de on/off</a></li>
+          <li><a href="#boton">11.-Botones de seleccion</a></li>
+          <li><a href="#biografia">12.-Biografia</a></li>
+          <li><a href="#links">13.-links interiores</a></li>
           <li><a href="#alertas">Alertas</a></li>
 
       </ul>
@@ -252,58 +256,58 @@ background image behaves.
 
   <div style="display:flex;justify-content:center;box-sizing:border-box">
   <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
-    <div class="card-header">Header</div>
+    <div class="card-header">Azul rey</div>
     <div class="card-body">
-      <h5 class="card-title">Primary card title</h5>
+      <h5 class="card-title">cartas de descripcion</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     </div>
   </div>
   <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
-    <div class="card-header">Header</div>
+    <div class="card-header">Gris obscuro</div>
     <div class="card-body">
-      <h5 class="card-title">Secondary card title</h5>
+      <h5 class="card-title">cartas de descripcion</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     </div>
   </div>
   <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
-    <div class="card-header">Header</div>
+    <div class="card-header">Verde</div>
     <div class="card-body">
-      <h5 class="card-title">Success card title</h5>
+      <h5 class="card-title">cartas de descripcion</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     </div>
   </div>
   <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
-    <div class="card-header">Header</div>
+    <div class="card-header">Rojo</div>
     <div class="card-body">
-      <h5 class="card-title">Danger card title</h5>
+      <h5 class="card-title">cartas de descripcion</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     </div>
   </div>
   <div class="card text-dark bg-warning mb-3" style="max-width: 18rem;">
-    <div class="card-header">Header</div>
+    <div class="card-header">Amarillo</div>
     <div class="card-body">
-      <h5 class="card-title">Warning card title</h5>
+      <h5 class="card-title">cartas de descripcion</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     </div>
   </div>
   <div class="card text-dark bg-info mb-3" style="max-width: 18rem;">
-    <div class="card-header">Header</div>
+    <div class="card-header">Azul cielo</div>
     <div class="card-body">
-      <h5 class="card-title">Info card title</h5>
+      <h5 class="card-title">cartas de descripcion</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     </div>
   </div>
   <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
-    <div class="card-header">Header</div>
+    <div class="card-header">Gris claro</div>
     <div class="card-body">
       <h5 class="card-title">Light card title</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     </div>
   </div>
   <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-    <div class="card-header">Header</div>
+    <div class="card-header">Negro</div>
     <div class="card-body">
-      <h5 class="card-title">Dark card title</h5>
+      <h5 class="card-title">cartas de descripcion</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     </div>
   </div>
@@ -326,7 +330,7 @@ background image behaves.
           Default dropdown
         </button>
         <ul class="dropdown-menu" aria-labelledby="defaultDropdown">
-          <li><a class="dropdown-item" href="#">Menu item</a></li>
+          <li><a class="dropdown-item" href="card">Menu item</a></li>
           <li><a class="dropdown-item" href="#">Menu item</a></li>
           <li><a class="dropdown-item" href="#">Menu item</a></li>
         </ul>
@@ -400,6 +404,107 @@ background image behaves.
   </ol>
   
   <hr> 
+
+  <section id="switch">
+    <h2 style="background-color:orange;">
+      10.-switch de on/off </h2>
+
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+        <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
+      </div>
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+        <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch checkbox input</label>
+      </div>
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" disabled>
+        <label class="form-check-label" for="flexSwitchCheckDisabled">Disabled switch checkbox input</label>
+      </div>
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckCheckedDisabled" checked disabled>
+        <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Disabled checked switch checkbox input</label>
+      </div>
+
+  </section>
+
+  <ol>
+    <li><a href="#indice">Regresar a Indice.</a></li>
+  </ol>
+  
+  <hr>
+
+  <section id="boton">
+    <h2 style="background-color:orange;">
+      11.-Botones de seleccion</h2>
+
+
+  <div class="form-check">
+    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+    <label class="form-check-label" for="exampleRadios1">
+      Default radio
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+    <label class="form-check-label" for="exampleRadios2">
+      Second default radio
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" disabled>
+    <label class="form-check-label" for="exampleRadios3">
+      Disabled radio
+    </label>
+  </div>
+  </section>
+
+  <ol>
+    <li><a href="#indice">Regresar a Indice.</a></li>
+  </ol>
+  
+  <hr>
+  
+
+  <section id="boton">
+    <h2 style="background-color:orange;">
+      12.-Biografia</h2>
+
+  <div class="row g-0 bg-light position-relative">
+    <div class="col-md-6 mb-md-0 p-md-4">
+      <img src="assets/imagen/neandartal.jpg" class="w-50" alt="...">
+    </div>
+    <div class="col-md-6 p-4 ps-md-0">
+      <h5 class="mt-0">Los neandertales</h5>
+      <p>Son una especie humana extinta que vivió durante el intervalo comprendido entre hace unos 300.000 y unos 28.000 años. Poseían una anatomía muy característica y su ámbito cultural se desarrolló principalmente durante el Paleolítico Medio.</p>
+      <a href="https://www.nationalgeographic.com.es/ciencia/hombre-neandertal-mas-humano-que-se-creia_14381" class="stretched-link">Quieres saber mas?</a>
+    </div>
+  </div>
+  </section>
+
+  <ol>
+    <li><a href="#indice">Regresar a Indice.</a></li>
+  </ol>
+  
+  <hr>
+
+  <section id="links">
+    <h2 style="background-color:orange;">
+      13.-Links de cualquier otra pagina</h2>
+      
+
+<p>Esta opcion nos permite agregar distintas paginas web que pudiera interesar</p>
+
+<li><a href="https://www.w3schools.com">Visit W3Schools</a></li>
+<li><a href="https://testmoodags.tua.mx/">Visit TUA</a></li>
+
+  </section>
+  <ol>
+    <li><a href="#indice">Regresar a Indice.</a></li>
+  </ol>
+  
+  <hr>
+  
     </main>
 <hr>
 
@@ -413,17 +518,6 @@ background image behaves.
   <h1>Este es un titulo con letras distintas </h1>
 <p>Este es un texto donde podemos hacer algunas definiciones o contextos en alguna presentacion</p>
   <hr>
-  <p style="background-color:orange;">
-    Agregar link para abrir una pagina exterior
-    
-    </p>
-    <h2>The href Attribute</h2>
-
-<p>HTML links are defined with the a tag. The link address is specified in the href attribute:</p>
-
-  
-
-<a href="https://www.w3schools.com">Visit W3Schools</a>
   
 
 </body>
